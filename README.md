@@ -2,7 +2,8 @@
 The Sudoku Game FOCP Assignment 2:
 
 ## Title and Team Information:
-**Project Title:** Sudoku Game 
+**Project Title:** Sudoku Game   
+
 **Team Information: CMS IDs and Roles:**  
   - Summiya Aurangzeb (546507)  
   - Sarah Shahid (546132)  
