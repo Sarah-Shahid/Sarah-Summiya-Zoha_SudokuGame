@@ -1,6 +1,5 @@
 # Sarah-Summiya-Zoha_SudokuGame
-# summiya_sarah_zoha_dronesimulator
-Delivery Drone Simulator FOCP Assignment 1 
+The Sudoku Game FOCP Assignment 2:
 
 ## Title and Team Information:
 **Project Title:** Sudoku Game 
