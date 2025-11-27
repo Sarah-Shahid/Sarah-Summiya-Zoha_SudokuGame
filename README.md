@@ -46,7 +46,6 @@ The functions used in the code are:
 
 ## Usage of AI and Reflection:
 - used gpt to understand about the markdown in git readme file. (its specific syntax) It told us about the basic  markdown syntax.
-- Used gpt to manage the pic size in readme.
 
 
 ## Future Improvements:  
