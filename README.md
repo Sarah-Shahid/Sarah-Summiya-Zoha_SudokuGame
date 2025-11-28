@@ -9,7 +9,8 @@ The Sudoku Game FOCP Assignment 2:
   - Sarah Shahid (546132)  
   - Zoha Ahsan (545764)
 
-  **Summiya Aurangzeb:**  
+  **Summiya Aurangzeb:**   
+  Documentation Manager. Added her functions is the code and the extra coloured feature.
                  
 
   **Sarah Shahid:**  
@@ -26,11 +27,11 @@ We made our own functions and experimented with our logics to make the final gam
   
 ## Program Design and Logic:  
 **Functions overview** :  
-The functions used in the code are:
-**- void printBoard()** This function prints the whole sudokuboard in a formatted way. 
-**- bool isvalid()** It checks if the entry is valid according to the sudoku rules.
-**- void initialboard()** It generates a valid sudokuboard and then generates a partially filled version of it to start the game.
-**- int userEntry()** It lets the user choose the row and column number and then takes an input if it is valid.
+The functions used in the code are:  
+**- void printBoard()** This function prints the whole sudokuboard in a formatted way.  
+**- bool isvalid()** It checks if the entry is valid according to the sudoku rules.  
+**- void initialboard()** It generates a valid sudokuboard and then generates a partially filled version of it to start the game.  
+**- int userEntry()** It lets the user choose the row and column number and then takes an input if it is valid.  
 
 ## Execution Instructions:  
 1) All the team members discussed the logic and divided the functions equally among eachother.
@@ -42,6 +43,10 @@ The functions used in the code are:
 The roles were distributed equally among eachother with coordination. Every member played equal role in logic building, writing main code, problem solving and documentation. In this way each member built the understanding of every single task. This improved team work and decision making skills in the group members.
 
 **(1)** Summiya Aurangzeb:  
+- Was added as a collaborator
+- Added Hint function that generates hint when asked by the user
+- Learned the usage of ANSI Color Codes for addition of coloured features to improve the game's display.
+- Managed the documentation process. 
 
  
   
@@ -58,6 +63,8 @@ The roles were distributed equally among eachother with coordination. Every memb
 
 ## Usage of AI and Reflection:
 - used gpt to understand about the markdown in git readme file. (its specific syntax) It told us about the basic  markdown syntax.
+- To learn the usage of  ANSI Color Codes to add coloured text.
+
 
 
 ## Future Improvements:  
