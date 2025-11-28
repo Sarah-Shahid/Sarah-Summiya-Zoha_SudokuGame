@@ -28,10 +28,11 @@ We made our own functions and experimented with our logics to make the final gam
 ## Program Design and Logic:  
 **Functions overview** :  
 The functions used in the code are:  
-**- void printBoard()** This function prints the whole sudokuboard in a formatted way.  
-**- bool isvalid()** It checks if the entry is valid according to the sudoku rules.  
-**- void initialboard()** It generates a valid sudokuboard and then generates a partially filled version of it to start the game.  
-**- int userEntry()** It lets the user choose the row and column number and then takes an input if it is valid.  
+**- void printBoard():** This function prints the whole sudokuboard in a formatted way.  
+**- bool isvalid():** It checks if the entry is valid according to the sudoku rules.  
+**- void initialboard():** It generates a valid sudokuboard and then generates a partially filled version of it to start the game.  
+**- int userEntry():** It lets the user choose the row and column number and then takes an input if it is valid.  
+**-void hint():** It generates hint on user’s demand. The hint is generated in the cell indicated by the user. Rand function is used to generate a number between 1-9, the number satisfying the suduko rules (isvalid function) is placed in the cell. 
 
 ## Execution Instructions:  
 1) All the team members discussed the logic and divided the functions equally among eachother.
