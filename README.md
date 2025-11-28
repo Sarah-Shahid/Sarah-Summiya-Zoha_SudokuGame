@@ -33,10 +33,13 @@ The functions used in the code are:
 **- int userEntry()** It lets the user choose the row and column number and then takes an input if it is valid.
 
 ## Execution Instructions:  
-
+1) All the team members discussed the logic and divided the functions equally among eachother.
+2) One member worked on the printing initial board logic, the other worked on the input part of code and the third person worked on the hint and the final solution.  \
+3) Each member made a branch of their own name and committed their function there.
+4) The group members kept eachother updated with their work and logic.
 ## Team Collaboration Summary:  
 **Division of Roles:**  
-
+The roles were distributed equally among eachother with coordination. Every member played equal role in logic building, writing main code, problem solving and documentation. In this way each member built the understanding of every single task. This improved team work and decision making skills in the group members.
 
 **(1)** Summiya Aurangzeb:  
 
@@ -58,4 +61,6 @@ The functions used in the code are:
 
 
 ## Future Improvements:  
-The game can be made better in future by adding more advanced features and increase user interaction. New concepts like data structures (arrays, vectors) could make the game more flexible. Object-oriented programming can give an organized board and gameplay.
+- New concepts like data structures (arrays, vectors, matrices) could make the game more flexible. By using vectors the board can resize dynamically and rechecks and updates the values easily.
+- Object-oriented programming can give an organized board and gameplay.
+- The game can be made better in future by adding more advanced features and increasing user interaction. We might add timer to make it more challenging.
