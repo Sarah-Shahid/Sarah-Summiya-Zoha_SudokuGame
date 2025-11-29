@@ -33,7 +33,8 @@ The functions used in the code are:
 **- bool isvalid():** It checks if the entry is valid according to the sudoku rules.  
 **- void initialboard():** It generates a valid sudokuboard and then generates a partially filled version of it to start the game.  
 **- int userEntry():** It lets the user choose the row and column number and then takes an input if it is valid.  
-**-void hint():** It generates hint on user’s demand. The hint is generated in the cell indicated by the user. Rand function is used to generate a number between 1-9, the number satisfying the suduko rules (isvalid function) is placed in the cell. 
+**-void hint():** It generates hint on user’s demand. The hint is generated in the cell indicated by the user. Rand function is used to generate a number between 1-9, the number satisfying the suduko rules (isvalid function) is placed in the cell.   
+**-bool isComplete():** Whenever the user enters an input or calls a hint, this function checks if the board is valid and complete and if it is, it ends the program.
 
 ## Execution Instructions:  
 1) Open your C++ compiler or terminal to run the code.
