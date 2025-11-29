@@ -9,44 +9,80 @@ The Sudoku Game FOCP Assignment 2:
   - Sarah Shahid (546132)  
   - Zoha Ahsan (545764)
 
-  **Summiya Aurangzeb:**  
+  **Summiya Aurangzeb:**   
+  Documentation Manager. Added her functions in the code and the extra coloured feature.
                  
 
-  **Sarah Shahid:**  
+  **Sarah Shahid:**    
+  Added her functions in the code; which included the isValid function and initialboard function which used a completely random approach to generate the sudoku board. Also added difficulty levels to the game and made a function that checked for the game to be complete and then displayed the congratulatory message.
                  
 
                  
-  **Zoha Ahsan:**    
+  **Zoha Ahsan:**  
+  Managed Readme on GIT and added her functions in the code.
                   
 ## Problem Description and Overview:
-
+Some games are not played merely for entertainment, but they sharpen and enhance the critical thinking of mind. Sudoku is the most popular among such games. Research shows that playing such games not only sharpens the mind but also increases the memory. The player has to make a strategy and think of a solution just as the programmers do while writing algorithms.  
+**What makes it interesting:**  
+We made our own functions and experimented with our logics to make the final game. Creating the game is equally interesting as playing the game. We had to make multiple versions before concluding the final version so it helped alot in building concepts and problem solving. This assignment also highlighted the importance and benefits of team work.
   
 ## Program Design and Logic:  
 **Functions overview** :  
-The functions used in the code are:
-
+The functions used in the code are:  
+**- void printBoard():** This function prints the whole sudokuboard in a formatted way.  
+**- bool isvalid():** It checks if the entry is valid according to the sudoku rules.  
+**- void initialboard():** It generates a valid sudokuboard and then generates a partially filled version of it to start the game.  
+**- int userEntry():** It lets the user choose the row and column number and then takes an input if it is valid.  
+**-void hint():** It generates hint on user’s demand. The hint is generated in the cell indicated by the user. Rand function is used to generate a number between 1-9, the number satisfying the suduko rules (isvalid function) is placed in the cell. 
 
 ## Execution Instructions:  
-
+1) Open your C++ compiler or terminal to run the code.
+2) As the cude runs, it will first display a menu asking user to choose a number between 1 and 4.
+3) If the user enters 1, the game will proceed. The user then chooses the row and column number to make an entry. If the number is correct it will be placed successfully with an increment in total score but if the number is incorrect, a message will be displayed warning the user.
+4) If the user enters 2, a hint will be given and score will be reduce by 10.
+5) If the uses enters 3, a full solution will be displayed.
+6) If the user enters 4, it will allow the user to exit successfully.
+**Sample input/output :**
+Player enters 1 to proceed.
+player enters row number: 7
+Player enters column number : 4
+Player enter a number : 6
+The programme may respond by :
+ - Number placed successfully (score increases and updated board is displayed)
+ - This number can not be placed according to sudoku rules.
 ## Team Collaboration Summary:  
 **Division of Roles:**  
-
+The roles were distributed equally among eachother with coordination. Every member played equal role in logic building, writing main code, problem solving and documentation. In this way each member built the understanding of every single task. This improved team work and decision making skills in the group members.
 
 **(1)** Summiya Aurangzeb:  
-
- 
+- Was added as a collaborator
+- Added Hint function that generates hint when asked by the user
+- Learned the usage of ANSI Color Codes for addition of coloured features to improve the game's display.
+- Managed the documentation process. 
   
 **(2)** Sarah Shahid:  
 - Created a public repository with name: Sarah-Summiya-Zoha_SudokuGame.
 - Added the team members as collaborators.
 - Created Readme file and made the first commit on it.
+- Used 2-D arrays to generate fully solved random sudoku board using the rand function.
+- Made the first function that introduces the game rules to the player. Also made a function that recognizes when the board is Valid and complete and then displays the congratulatory message. 
+- Worked on the is Valid function.
+- Added three difficulty levels to the game.
+
 
 **(3)** Zoha Ahsan:  
-
+- Accepted the invitation to get added as a collaborator on the repository.
+- Managed the Readme on GIT.
+- Used Sarah's logic to create printboard function.
+- Created the userEntry function.
 
 ## Usage of AI and Reflection:
 - used gpt to understand about the markdown in git readme file. (its specific syntax) It told us about the basic  markdown syntax.
-- Used gpt to manage the pic size in readme.
+- To learn the usage of  ANSI Color Codes to add coloured text.
+
 
 
 ## Future Improvements:  
+- New concepts like data structures (arrays, vectors, matrices) could make the game more flexible. By using vectors the board can resize dynamically and rechecks and updates the values easily.
+- Object-oriented programming can give an organized board and gameplay.
+- The game can be made better in future by adding more advanced features and increasing user interaction. We might add timer to make it more challenging.
