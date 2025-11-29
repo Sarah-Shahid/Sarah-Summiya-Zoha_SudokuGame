@@ -10,7 +10,7 @@ The Sudoku Game FOCP Assignment 2:
   - Zoha Ahsan (545764)
 
   **Summiya Aurangzeb:**   
-  Documentation Manager. Added her functions is the code and the extra coloured feature.
+  Documentation Manager. Added her functions in the code and the extra coloured feature.
                  
 
   **Sarah Shahid:**  
@@ -35,10 +35,20 @@ The functions used in the code are:
 **-void hint():** It generates hint on user’s demand. The hint is generated in the cell indicated by the user. Rand function is used to generate a number between 1-9, the number satisfying the suduko rules (isvalid function) is placed in the cell. 
 
 ## Execution Instructions:  
-1) All the team members discussed the logic and divided the functions equally among eachother.
-2) One member worked on the printing initial board logic, the other worked on the input part of code and the third person worked on the hint and the final solution.  \
-3) Each member made a branch of their own name and committed their function there.
-4) The group members kept eachother updated with their work and logic.
+1) Open your C++ compiler or terminal to run the code.
+2) As the cude runs, it will first display a menu asking user to choose a number between 1 and 4.
+3) If the user enters 1, the game will proceed. The user then chooses the row and column number to make an entry. If the number is correct it will be placed successfully with an increment in total score but if the number is incorrect, a message will be displayed warning the user.
+4) If the user enters 2, a hint will be given and score will be reduce by 10.
+5) If the uses enters 3, a full solution will be displayed.
+6) If the user enters 4, it will allow the user to exit successfully.
+**Sample input/output :**
+Player enters 1 to proceed.
+player enters row number: 7
+Player enters column number : 4
+Player enter a number : 6
+The programme may respond by :
+ - Number placed successfully (score increases and updated board is displayed)
+ - This number can not be placed according to sudoku rules.
 ## Team Collaboration Summary:  
 **Division of Roles:**  
 The roles were distributed equally among eachother with coordination. Every member played equal role in logic building, writing main code, problem solving and documentation. In this way each member built the understanding of every single task. This improved team work and decision making skills in the group members.
@@ -48,8 +58,6 @@ The roles were distributed equally among eachother with coordination. Every memb
 - Added Hint function that generates hint when asked by the user
 - Learned the usage of ANSI Color Codes for addition of coloured features to improve the game's display.
 - Managed the documentation process. 
-
- 
   
 **(2)** Sarah Shahid:  
 - Created a public repository with name: Sarah-Summiya-Zoha_SudokuGame.
