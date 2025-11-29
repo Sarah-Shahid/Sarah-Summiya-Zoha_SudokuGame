@@ -13,7 +13,8 @@ The Sudoku Game FOCP Assignment 2:
   Documentation Manager. Added her functions in the code and the extra coloured feature.
                  
 
-  **Sarah Shahid:**  
+  **Sarah Shahid:**    
+  Added her functions in the code; which included the isValid function and initialboard function which used a completely random approach to generate the sudoku board. Also added difficulty levels to the game and made a function that checked for the game to be complete and then displayed the congratulatory message.
                  
 
                  
@@ -63,6 +64,11 @@ The roles were distributed equally among eachother with coordination. Every memb
 - Created a public repository with name: Sarah-Summiya-Zoha_SudokuGame.
 - Added the team members as collaborators.
 - Created Readme file and made the first commit on it.
+- Used 2-D arrays to generate fully solved random sudoku board using the rand function.
+- Made the first function that introduces the game rules to the player. Also made a function that recognizes when the board is Valid and complete and then displays the congratulatory message. 
+- Worked on the is Valid function.
+- Added three difficulty levels to the game.
+
 
 **(3)** Zoha Ahsan:  
 - Accepted the invitation to get added as a collaborator on the repository.
